@@ -1,6 +1,5 @@
 # Ігноруємо залежності
 node_modules/
-package-lock.json
 
 # Локальні налаштування
 .env
