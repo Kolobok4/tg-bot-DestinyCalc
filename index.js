@@ -7,6 +7,7 @@ dotenv.config();
 
 const token = process.env.BOT_TOKEN;
 const ids = process.env.USER_IDS;
+console.log("🔐 BOT_TOKEN from process.env:", process.env.BOT_TOKEN);
 
 const bot = new Telegraf(token);
 const stage = new Scenes.Stage([inputDataScene]);
