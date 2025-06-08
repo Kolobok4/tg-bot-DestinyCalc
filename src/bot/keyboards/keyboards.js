@@ -1,5 +1,5 @@
 import { Markup } from "telegraf";
-import {messages} from "../config/constants.js";
+import { messages } from "../config/messages.js";
 
 export const languageKeyboard = Markup.inlineKeyboard([
     [Markup.button.callback(messages.language_ua, "lang_ua")],
